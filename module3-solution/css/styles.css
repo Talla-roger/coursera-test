@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------HEADER--------------------- */
+#header-nav { /*Navigation*/
+    background-color: lightblue;
+    border-radius: 0;
+    border: 0;
+    padding: 5px 0;
+}
+
+.navbar-header { /* Centre le logo et le bouton mobile */
+    display: flex;
+    align-items: center;  
+    position: relative;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black !important;
+    padding-left: 15px;
+}
+
+/* MENU LISTE */
+.navbar-nav li a {  
+    color: black !important;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    border: solid 1px;
+}
+
+.navbar-nav li a:hover {
+    background-color: #E7E7E7;
+}
+
+/* Bouton mobile bien positionné */
+.navbar-header .navbar-toggle {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 1px solid #61122f;
+}
+
+/* End Menu liste */
+
+/* ---END HEADER---------------------- */
+/* -------------MAIN------------- */
+
+h1.text-center {
+    color: black !important;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#main-content {
+    width: 90%;
+    margin: auto;
+}
+
+#main-content h2 {
+    color: black !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Amélioration du style de la section */
+#main-content section {
+    background-color: lightblue;
+    padding: 30px;
+    margin-bottom: 30px;
+    min-height: 1000px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
